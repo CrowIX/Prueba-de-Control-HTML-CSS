@@ -1,0 +1,31 @@
+.formulario {
+  min-width: 400px;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+[required] {
+  border-color: red;
+}
+
+fieldset {
+  background-color: lightgrey;
+  padding: 1rem;
+}
+
+fieldset:hover {
+  background-color: grey;
+}
+
+fieldset:first-child,
+fieldset:nth-child(12) {
+  border-bottom-color: black;
+  border-bottom-width: 5px;
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border: unset;
+}

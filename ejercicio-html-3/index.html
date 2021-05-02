@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio HTML 3</title>
+</head>
+<body>
+  <form action="GET" class="formulario">
+    <fieldset>
+      <legend>Nombre:</legend>
+      <label for="setName">
+        <input type="text" name="nameField" required autofocus id="setName">
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Email:</legend>
+      <label for="setEmail">
+        <input type="email" name="emailField" required id="setEmail">
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>URL:</legend>
+      <label for="setUrl">
+        <input type="url" name="urlField" placeholder="Escribe la URL de tu página web personal" id="setUrl">
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Fecha:</legend>
+      <label for="setDate">
+        <input type="date" name="dateField" id="setDate">
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Hora</legend>
+      <label for="setTime">
+        <input type="time" name="timeField" id="setTime">
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Fecha y hora</legend>
+      <label for="setDateTime">
+        <input type="datetime-local" name="dateTimeField" id="setDateTime">
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Mes:</legend>
+      <label for="setMonth">
+        <input type="month" name="monthField" id="setMonth">
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Semana:</legend>
+      <label for="setWeek">
+        <input type="week" name="weekField" id="setWeek">
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Número:</legend>
+      <label for="setNumber">
+         <input type="number" name="numberField" min="-10" max="10" id="setNumber">
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Teléfono:</legend>
+      <label for="setPhone">
+        <input type="tel" name="PhoneField" value="635452018" disabled id="setPhone">
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Término de búsqueda:</legend>
+      <label for="setSearch">
+        <input type="search" name="searchField" disabled id="setSearch">
+      </label>
+    </fieldset>
+    <fieldset>
+      <legend>Color favorito:</legend>
+      <label for="setColour">
+        <input type="color" name="colourField" id="setColour">
+      </label>
+    </fieldset>
+    <br>
+    <button type="submit" class="button" formmethod="GET" id="sendButton">Enviar</button>
+  </form>
+</body>
+</html>
